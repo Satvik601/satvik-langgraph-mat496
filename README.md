@@ -136,3 +136,13 @@ echo "TAVILY_API_KEY=\"$TAVILY_API_KEY\"" >> module-4/studio/.env
   >Understood how to build conditional logic using nodes and edges to route execution based on model decisions.
 
   >Gained practical knowledge of tool integration with LangChain, using llm.bind_tools() to let the model call tools like multiply(a, b) during interaction.
+
+>Video 6-
+
+  >Saw a dynamic router architecture where the chat model decides whether to respond in natural language or call a tool based on user input, enabling flexible control flow in LangGraph.
+
+  >Saw the implementation conditional edges and nodes to manage execution flow, routing between assistant and tool nodes, forming a loop that allows the model to call multiple tools sequentially or respond directly.
+
+  >Learnt the Integratation multiple simple math tools (add, multiply, divide) with LangChain through llm.bind_tools(), enabling the model to invoke tools in sequence and reason about their outputs using a ReAct-like agent architecture.
+
+  > I made some edits in the operations to see how the agent route backs to form a loop
