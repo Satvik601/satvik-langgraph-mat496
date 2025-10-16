@@ -111,9 +111,11 @@ echo "TAVILY_API_KEY=\"$TAVILY_API_KEY\"" >> module-4/studio/.env
    > Video 1
     >When I explored LangGraph, I realized it’s basically a smarter way to build AI systems that think and act more like humans. Instead of making AIs follow a rigid path, LangGraph lets me create workflows where the AI can make its own choices, loop back, and even ask for help if needed like an intelligent teammate rather than just a tool.
     >At the same time, it keeps a good balance by letting developers set important rules and structure, ensuring the system stays reliable but still flexible enough to respond to unexpected situations. It also supports memory and collaboration between multiple AI agents, plus human oversight when necessary, which makes it practical and trustworthy for serious applications
+    > I made a new node of my own and and redefined the function 
 
   >Video 2-
    > I learnt how a LangGraph is built using connected nodes and edges, where data (the state) moves from one step to the next.
    >I saw how to add a conditional edge so the graph can take different paths depending on a rule — like choosing between two nodes.
    >Finally, I ran the graph to see how it updates the state at each step, giving different results each time based on the path it takes.
+   > I trien to do different operations to see what output i got and observed them.
 
