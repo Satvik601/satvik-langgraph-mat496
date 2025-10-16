@@ -107,3 +107,8 @@ for i in {1..5}; do
 done
 echo "TAVILY_API_KEY=\"$TAVILY_API_KEY\"" >> module-4/studio/.env
 ```
+>MODULE 1 
+   > Video 1
+    >When I explored LangGraph, I realized it’s basically a smarter way to build AI systems that think and act more like humans. Instead of making AIs follow a rigid path, LangGraph lets me create workflows where the AI can make its own choices, loop back, and even ask for help if needed like an intelligent teammate rather than just a tool.
+    >At the same time, it keeps a good balance by letting developers set important rules and structure, ensuring the system stays reliable but still flexible enough to respond to unexpected situations. It also supports memory and collaboration between multiple AI agents, plus human oversight when necessary, which makes it practical and trustworthy for serious applications
+
