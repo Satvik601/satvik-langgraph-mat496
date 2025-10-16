@@ -117,7 +117,7 @@ echo "TAVILY_API_KEY=\"$TAVILY_API_KEY\"" >> module-4/studio/.env
    > I learnt how a LangGraph is built using connected nodes and edges, where data (the state) moves from one step to the next.
    >I saw how to add a conditional edge so the graph can take different paths depending on a rule — like choosing between two nodes.
    >Finally, I ran the graph to see how it updates the state at each step, giving different results each time based on the path it takes.
-   > I tried to do different operations to see what output i got and observed them.
+   > I tried to do different promts to see what output i got and observed them.
 
   >Video 3-
   > I got a quick intro on how to use langsmith studio. 
@@ -129,3 +129,10 @@ echo "TAVILY_API_KEY=\"$TAVILY_API_KEY\"" >> module-4/studio/.env
   >I explored how to structure conversations using message sequences and connect them through nodes and conditional edges in a graph.
 
   >I practiced integrating chat models with external tools and executing tool calls to make interactions more dynamic and functional. 
+
+>Video 5-
+  > Learned how a router enables dynamic control flow in LangGraph by letting the chat model decide between natural language responses and tool invocations.
+  
+  >Understood how to build conditional logic using nodes and edges to route execution based on model decisions.
+
+  >Gained practical knowledge of tool integration with LangChain, using llm.bind_tools() to let the model call tools like multiply(a, b) during interaction.
