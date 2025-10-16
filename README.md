@@ -136,6 +136,7 @@ echo "TAVILY_API_KEY=\"$TAVILY_API_KEY\"" >> module-4/studio/.env
   >Understood how to build conditional logic using nodes and edges to route execution based on model decisions.
 
   >Gained practical knowledge of tool integration with LangChain, using llm.bind_tools() to let the model call tools like multiply(a, b) during interaction.
+  > Tried some different operations of my own 
 
 >Video 6-
 
@@ -146,3 +147,11 @@ echo "TAVILY_API_KEY=\"$TAVILY_API_KEY\"" >> module-4/studio/.env
   >Learnt the Integratation multiple simple math tools (add, multiply, divide) with LangChain through llm.bind_tools(), enabling the model to invoke tools in sequence and reason about their outputs using a ReAct-like agent architecture.
 
   > I made some edits in the operations to see how the agent route backs to form a loop
+
+>Video 7-   
+
+  >I learnt how to build an AI agent with memory that can remember past interactions and use that memory to improve future responses and decision-making.
+
+  >I learnt that an agent works through a continuous cycle of acting, observing, and reasoning — where it calls tools, analyzes results, and decides what to do next — and that adding memory makes this process more intelligent and context-aware.
+
+  >
