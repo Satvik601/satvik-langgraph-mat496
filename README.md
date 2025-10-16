@@ -122,3 +122,10 @@ echo "TAVILY_API_KEY=\"$TAVILY_API_KEY\"" >> module-4/studio/.env
   >Video 3-
   > I got a quick intro on how to use langsmith studio. 
   > It helps with the visualisation of what i just created 
+
+ > Video 4-
+  > I learned how to use LangChain components like chat models, messages, tools, and function calls to build a conversational chain.
+
+  >I explored how to structure conversations using message sequences and connect them through nodes and conditional edges in a graph.
+
+  >I practiced integrating chat models with external tools and executing tool calls to make interactions more dynamic and functional. 
