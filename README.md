@@ -117,5 +117,8 @@ echo "TAVILY_API_KEY=\"$TAVILY_API_KEY\"" >> module-4/studio/.env
    > I learnt how a LangGraph is built using connected nodes and edges, where data (the state) moves from one step to the next.
    >I saw how to add a conditional edge so the graph can take different paths depending on a rule — like choosing between two nodes.
    >Finally, I ran the graph to see how it updates the state at each step, giving different results each time based on the path it takes.
-   > I trien to do different operations to see what output i got and observed them.
+   > I tried to do different operations to see what output i got and observed them.
 
+  >Video 3-
+  > I got a quick intro on how to use langsmith studio. 
+  > It helps with the visualisation of what i just created 
