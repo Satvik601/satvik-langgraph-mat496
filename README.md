@@ -199,6 +199,8 @@ echo "TAVILY_API_KEY=\"$TAVILY_API_KEY\"" >> module-4/studio/.env
 
     >LangSmith Integration:It provides real-time tracing, debugging, and performance visualization for each chatbot interaction.    
 
+    > I changed some inputs in the code. 
+
   Video 6- 
     
     >External Database Memory: It stores conversation history and summaries in SQLite for long-term, persistent chatbot memory.
@@ -206,6 +208,8 @@ echo "TAVILY_API_KEY=\"$TAVILY_API_KEY\"" >> module-4/studio/.env
     >Checkpointing with SqliteSaver: It automatically saves and retrieves the graph’s state to resume chats across sessions.
 
     >Persistent Context Management: It ensures the chatbot remembers prior interactions even after being closed or rebooted.
+
+    > i changed some inputs and saww that it still conversed with me by reflecting its external memory in the chat.
 
 
 
