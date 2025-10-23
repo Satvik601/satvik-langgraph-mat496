@@ -158,10 +158,17 @@ echo "TAVILY_API_KEY=\"$TAVILY_API_KEY\"" >> module-4/studio/.env
 
 >Module 2- 
   
-  >Video-1-
+  >Video 1-
     
     >State schema is a representation of structures and type of data our graph will use.
     >Typedict- It is the most basic tool amongst all 3 other tools I learnt about. It defines the keys and types of a dictionary but it doesn't check values at runtime. 
     >Dataclass- It automatically creates a class with an easy constructor and printing features which helps in organising data neatly.
     >Pydantic- It Builds data models that validate and convert data at runtime and ensures that everything is the right type and format.
     >I changed my code to have its own variables and tested the features of all the tools on my changed variables
+
+  >Video 2-
+
+    >State Updates: LangGraph nodes share and modify a common state that stores data across the workflow.
+    >Reducers: They are the Functions that control how multiple updates to the same state key are merged instead of overwritten.
+    >Custom Reducers: User-defined rules  for safely combining parallel updates. eg: sum,merge,etc. 
+    >Message State: A special state type that stores conversation history, enabling context-aware AI interactions.
