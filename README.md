@@ -188,7 +188,16 @@ echo "TAVILY_API_KEY=\"$TAVILY_API_KEY\"" >> module-4/studio/.env
     >Filtering & Trimming: Remove or shorten old messages to manage context length and model token limits.
     >Model Integration: Connect LangGraph with OpenAI models (ChatOpenAI) to process conversational states.
     > I asked different questions and invoked the llm and tested the use of these tools myself.
-    
+
+  Video 5-
+
+    >Message Summarization:It converts older messages into compact summaries, preserving context without exceeding token limits.
+
+    >State Enhancement:It extends MessagesState by adding a summary field to manage both raw messages and condensed history.
+
+    >Efficient Context Management: It ensures the chatbot remains aware of prior discussions even after trimming message history.
+
+    >LangSmith Integration:It provides real-time tracing, debugging, and performance visualization for each chatbot interaction.    
 
 
 
