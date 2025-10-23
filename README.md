@@ -172,3 +172,22 @@ echo "TAVILY_API_KEY=\"$TAVILY_API_KEY\"" >> module-4/studio/.env
     >Reducers: They are the Functions that control how multiple updates to the same state key are merged instead of overwritten.
     >Custom Reducers: User-defined rules  for safely combining parallel updates. eg: sum,merge,etc. 
     >Message State: A special state type that stores conversation history, enabling context-aware AI interactions.
+    >I changed the inputs and outputs to my desired inputs and outputs and say the working of reducers in messages. 
+
+  >Video 3- 
+
+    > Private State:It is the Temporary internal data used between nodes but excluded from final outputs.
+    >Input Schema:It Defines the required information to start the graph execution.
+    >Output Schema:It Specifies what final data is returned from the graph.
+    >Multiple Schemas:It Enable modular, secure, and cleaner data flow across complex AI pipelines.
+    > I modified the input & ouput schema and the notes. 
+
+  Video 4-    
+
+
+
+
+
+
+
+   
