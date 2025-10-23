@@ -184,6 +184,11 @@ echo "TAVILY_API_KEY=\"$TAVILY_API_KEY\"" >> module-4/studio/.env
 
   Video 4-    
 
+    >Messages as State: Use message objects (HumanMessage, AIMessage) to maintain chat history between nodes.
+    >Filtering & Trimming: Remove or shorten old messages to manage context length and model token limits.
+    >Model Integration: Connect LangGraph with OpenAI models (ChatOpenAI) to process conversational states.
+    > I asked different questions and invoked the llm and tested the use of these tools myself.
+    
 
 
 
