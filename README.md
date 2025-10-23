@@ -155,3 +155,13 @@ echo "TAVILY_API_KEY=\"$TAVILY_API_KEY\"" >> module-4/studio/.env
   >I learnt that an agent works through a continuous cycle of acting, observing, and reasoning — where it calls tools, analyzes results, and decides what to do next — and that adding memory makes this process more intelligent and context-aware.
 
   > I did some operations of my own and saw how it remembers the past interactions
+
+>Module 2- 
+  
+  >Video-1-
+    
+    >State schema is a representation of structures and type of data our graph will use.
+    >Typedict- It is the most basic tool amongst all 3 other tools I learnt about. It defines the keys and types of a dictionary but it doesn't check values at runtime. 
+    >Dataclass- It automatically creates a class with an easy constructor and printing features which helps in organising data neatly.
+    >Pydantic- It Builds data models that validate and convert data at runtime and ensures that everything is the right type and format.
+    >I changed my code to have its own variables and tested the features of all the tools on my changed variables
