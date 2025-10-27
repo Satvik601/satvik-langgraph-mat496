@@ -224,7 +224,11 @@ Module 3-
 
   Video 2-
 
-    >    
+    >  Breakpoints points in a graph where execution automatically pauses before specific nodes like tool useto allow human approval or review.  
+    
+    >It Expands on streaming by enabling direct human actions such as approval, debugging, or editing of the agent’s state during execution.
+
+    >It does it by  combining live visibility (streaming) with precise control (breakpoints) to create fully interactive, human-supervised AI workflows.
 
 
 
