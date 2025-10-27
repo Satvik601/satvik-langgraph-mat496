@@ -248,8 +248,12 @@ Module 3-
 
   Video 5- 
 
-  >
+  >I Learned how to view, replay, and fork from past states of a graph which enables developers to revisit and debug earlier execution steps with full state visibility.
 
+  >I observed get_state and get_state_history functions to inspect both the current and previous checkpoints, helping track an agent’s decisions over time.
 
+  >I Understood how to rerun or branch off from earlier points in a conversation or workflow, allowing safe experimentation and rollback capabilities.
+
+  > I gave it variables of my own and saw did observed how to view, replay, and fork from past states of a graph
 
    
