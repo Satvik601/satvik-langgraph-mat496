@@ -230,6 +230,15 @@ Module 3-
 
     >It does it by  combining live visibility (streaming) with precise control (breakpoints) to create fully interactive, human-supervised AI workflows.
 
+  Video 3- 
+
+  > This Video introduces how to directly modify a LangGraph’s state (e.g., messages or variables) while it’s paused at a breakpoint, enabling real-time corrections or feedback insertion.
+
+  > It Shows how humans can inject new inputs or edits mid-execution, making the AI adaptable to guidance, corrections, or contextual changes.
+
+  >I changed the variables of input during the interruption and it gave the output according to me and not the predefined variables. 
+  
+
 
 
    
