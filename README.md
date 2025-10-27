@@ -210,7 +210,21 @@ echo "TAVILY_API_KEY=\"$TAVILY_API_KEY\"" >> module-4/studio/.env
     >Persistent Context Management: It ensures the chatbot remembers prior interactions even after being closed or rebooted.
 
     > i changed some inputs and saww that it still conversed with me by reflecting its external memory in the chat.
+    
+Module 3- 
 
+  Video 1-
+    >This demonstrates how to stream model responses token by token for real-time interaction, enhancing responsiveness in chatbots and AI agents.    
+
+    >It explains how to pause and resume graph execution for human review or input, enabling safe and controllable AI workflows.
+
+    >It Builds on earlier modules about state and memory — combining persistent state that is MemorySaver with live streaming and human intervention to create adaptive, interactive AI systems.
+    
+    >I did some changes in the prompt to saw these learning of my own changes
+
+  Video 2-
+
+    >    
 
 
 
