@@ -237,7 +237,18 @@ Module 3-
   > It Shows how humans can inject new inputs or edits mid-execution, making the AI adaptable to guidance, corrections, or contextual changes.
 
   >I changed the variables of input during the interruption and it gave the output according to me and not the predefined variables. 
-  
+
+  Video 4- 
+
+  >I Learned how to make the graph automatically pause itself during execution using NodeInterrupt, allowing the system to interrupt when specific runtime conditions are met.
+
+  >I inspected interrupted states, understanding why re-running stuck graphs repeat behavior, and how to edit state variables to resume correctly.
+
+  >I saw how graphs can create internal checkpoints dynamically which enabes logic-driven pauses without predefining breakpoints during compilation.
+
+  Video 5- 
+
+  >
 
 
 
