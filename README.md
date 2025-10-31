@@ -256,4 +256,16 @@ Module 3-
 
   > I gave it variables of my own and saw did observed how to view, replay, and fork from past states of a graph
 
+Module 4- 
+
+  Video 1- 
+    >When performing parallel node operations that write to the same key or channel in the state, a reducer is required to handle simultaneous updates safely.
+
+    >During a fan-out process, all branches must complete their state changes before fanning back in, allowing the next node to modify the state in order.
+
+    >We can use a custom reducer to control the order of updates within the same step; this enables parallel data retrieval from multiple sources and aggregation into a specific key, which can later be used for LLM-based answer generation.
+
+    >The update_state function’s reducer (add_messages) appends messages by default—unless an ID is provided, in which case it overwrites the existing one. Each call to update_state adds new forked checkpoints to the thread’s list.  
+
+  Video 2- 
    
