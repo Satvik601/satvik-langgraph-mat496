@@ -267,5 +267,19 @@ Module 4-
 
     >The update_state function’s reducer (add_messages) appends messages by default—unless an ID is provided, in which case it overwrites the existing one. Each call to update_state adds new forked checkpoints to the thread’s list.  
 
+    >Changed node names from generic labels (a, b, c, d) to my own variables and updated the example question to the one of my interest. 
+
   Video 2- 
    
+    >Subgraphs enable the creation and management of separate states within different parts of a graph, which is especially useful in multi-agent systems.
+
+    >Overlapping keys allow two-way communication — the main (entry) graph can interact with subgraphs, and subgraphs can send information back to the entry graph.
+
+    >In the entry graph’s overall state definition, a reducer for cleanes_log isn’t needed since this key isn’t part of any subgraph’s output schema, meaning it remains unaffected by their updates.
+
+    >I added or modified cells to demonstrate how subgraphs can manage separate states within a multi-agent LangGraph system and I also included examples or explanations showing how overlapping keys allow two-way communication between the main (entry) graph and subgraphs.
+    
+  Video 3- 
+
+    
+    
