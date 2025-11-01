@@ -281,5 +281,23 @@ Module 4-
     
   Video 3- 
 
+  >I Learned to implement map-reduce patterns in LangGraph to achieve efficient task decomposition and parallel processing.
+
+  >The map phase divides tasks into multiple parallel sub-tasks, while the reduce phase aggregates their results into a unified output.
+
+  >By Using the Send API, dynamic parallelization becomes possible by passing custom states to nodes without needing alignment with the overall state schema, allowing the system to handle any number of parallel operations automatically.
+
+  > I changed a prompt a bit and modified the example topic from "animals" to "Ece Students" to make it relatable.
+
+  Video 4-
+
+
+
+
+
+
+
+
+
     
     
